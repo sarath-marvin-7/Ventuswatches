@@ -1,0 +1,128 @@
+@media only screen and (max-width:1200px){
+    .content{
+        width: 100%;
+        padding: 0 2%;
+    }    
+    
+    .row{ padding: 0 2%; }
+}
+
+@media only screen and (max-width:1023px){
+    body{ font-size: 90%; }
+    
+    .content{ padding: 0 2%;}
+    
+    section{ padding: 60px 0;}
+    
+    .shop-form{ width: 80%;}        
+}
+
+@media only screen and (max-width:806px){
+    body{ font-size: 80%;}
+    
+    section { padding: 30px; }
+    
+    .main-nav{ display: none; }    
+    
+    h1{ font-size: 180%;}
+    
+    h2{ font-size: 150%;}
+    
+    
+    .col{ 
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+    
+    .brand-img{ height:  200px;}   
+    
+    
+    .footer-nav{ 
+        float: none;
+        text-align: center;
+    }
+    
+    .social-links{ 
+        float: none;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width:480px){
+     
+    body {
+        font-size: 70%;
+    }
+    
+    
+    h2{ font-size: 130%; }
+    
+    .content h1{ 
+        font-size: 170%; 
+    }
+    
+    .content {
+        margin: 0 5%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .col{ 
+        width: 100%;
+        margin: 0 0 3% 0;
+    }
+           
+    .logo{
+        height: 80px;
+        width: 140px;
+    }
+    
+    .about-img{
+         height: 140px;
+         width: 170px;
+         width: 170px;
+    }
+    
+    .btn-full{
+        display: block;
+        width: 150px;
+        margin-top: 30px;
+    }
+    
+    .btn-ghost{
+        display: block;
+        width: 180px;
+        margin-top: 10px;
+    }
+    
+    .long-copy{
+        width: 100%;  
+        margin-left: 5%;    
+    }
+    
+    .brand-content{
+        margin-bottom: 30px;
+    }    
+    
+    .shop-form{
+        width: 100%;
+    }
+    
+    .footer-nav li{
+        display: block;
+        margin-bottom: 10px;
+        
+        
+    }    
+    
+}
+
